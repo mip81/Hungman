@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#7e9fc1">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:text="Time : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTimeLbl"
+                android:textSize="25sp"
+                android:textStyle="normal|bold"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:text="20"
+                android:layout_width="30sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTimer"
+                android:textSize="25sp"
+                android:textColor="#000000" />
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="120dp" />
+
+            <TextView
+                android:text="Chances : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvChancesLbl"
+                android:textSize="25sp"
+                android:textStyle="normal|bold"
+                android:textColor="#000000" />
+
+            <TextView
+                android:text="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvChances"
+                android:textSize="25sp"
+                android:textStyle="normal|bold"
+                android:textColor="#000000" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="179dp"
+        android:id="@+id/llPicture">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/s"
+            android:id="@+id/ivPic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:id="@+id/llWordOnTheBoard"
+        android:layout_weight="0.65">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:text="HUNGMaN"
+            android:ems="10"
+            android:id="@+id/tvWordOnTheBoard"
+            android:textStyle="normal|bold"
+            android:textSize="35sp"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/llLetters"
+        android:layout_height="192dp"
+        android:gravity="bottom|center">
+
+    </LinearLayout>
+
+</LinearLayout>

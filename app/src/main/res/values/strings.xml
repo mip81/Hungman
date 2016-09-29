@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="TimeRunOut">Sorry, but time is run out!  </string>
+    <string name="GameOver">Game Over! Android is dead! </string>
+
+</resources>
